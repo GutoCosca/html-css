@@ -13,6 +13,7 @@
             width: 500px;
             border-collapse: collapse;
             vertical-align: middle;
+            position: relative;
         }
 
         caption {
@@ -25,6 +26,15 @@
         td, th {
             border: 1px solid #000000;
             padding: 5px;
+        }
+        tbody > tr:nth-child(2n-1) {  /* odd ou 2n-1 -> impar ou eve 2n -> par*/
+            background-color: lightgray;
+        }
+
+        thead >tr > th {
+            position:sticky;
+            top: -1px;
+            background-color: #808080;
         }
 
         thead, tfoot {
@@ -59,9 +69,9 @@
         <caption>Papulação das Unidades Federativas 2021</caption>
         <thead>
             <tr>
-                <th scope="col">Posição</th>
+                <th scope="col" style="width: 20px;">Posição</th>
                 <th scope="col">Estado</th>
-                <th scope="col" style="width: 50px;">População</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -203,12 +213,15 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>00</td>
-                <th scope="row">Total de Habitantes</th>
+                <th scope="row" colspan="2">Total de Habitantes</th>
                 <td class="num"><strong>208.317.639</strong></td>
             </tr>
         </tfoot>
     </table>
-
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis aliquam neque, debitis voluptate praesentium odio excepturi explicabo fugit enim? Non praesentium, suscipit labore ut hic sit doloremque culpa. Cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam animi, neque molestiae harum dolor repellat nobis eveniet quibusdam doloremque facere fugit temporibus voluptatibus impedit dolorum nulla tenetur, id maxime quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut nulla cumque qui mollitia ea architecto minus, in minima! Accusantium placeat tempora odio libero. Officiis debitis iste nihil, illo consequatur repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia vitae temporibus ipsa aliquid commodi beatae laudantium consectetur, impedit obcaecati hic sapiente nihil tempora sed, sunt, at vel placeat distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium iusto eum unde aliquid ipsam assumenda nostrum repellendus omnis laborum inventore odit repellat velit, minus quasi mollitia voluptatibus! Inventore, cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at eius esse autem dolorem unde, error magnam alias asperiores quam quos dolor, ipsum soluta laudantium non accusamus? Ex, obcaecati possimus!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis aliquam neque, debitis voluptate praesentium odio excepturi explicabo fugit enim? Non praesentium, suscipit labore ut hic sit doloremque culpa. Cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam animi, neque molestiae harum dolor repellat nobis eveniet quibusdam doloremque facere fugit temporibus voluptatibus impedit dolorum nulla tenetur, id maxime quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut nulla cumque qui mollitia ea architecto minus, in minima! Accusantium placeat tempora odio libero. Officiis debitis iste nihil, illo consequatur repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia vitae temporibus ipsa aliquid commodi beatae laudantium consectetur, impedit obcaecati hic sapiente nihil tempora sed, sunt, at vel placeat distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium iusto eum unde aliquid ipsam assumenda nostrum repellendus omnis laborum inventore odit repellat velit, minus quasi mollitia voluptatibus! Inventore, cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at eius esse autem dolorem unde, error magnam alias asperiores quam quos dolor, ipsum soluta laudantium non accusamus? Ex, obcaecati possimus!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis aliquam neque, debitis voluptate praesentium odio excepturi explicabo fugit enim? Non praesentium, suscipit labore ut hic sit doloremque culpa. Cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam animi, neque molestiae harum dolor repellat nobis eveniet quibusdam doloremque facere fugit temporibus voluptatibus impedit dolorum nulla tenetur, id maxime quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut nulla cumque qui mollitia ea architecto minus, in minima! Accusantium placeat tempora odio libero. Officiis debitis iste nihil, illo consequatur repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia vitae temporibus ipsa aliquid commodi beatae laudantium consectetur, impedit obcaecati hic sapiente nihil tempora sed, sunt, at vel placeat distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium iusto eum unde aliquid ipsam assumenda nostrum repellendus omnis laborum inventore odit repellat velit, minus quasi mollitia voluptatibus! Inventore, cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at eius esse autem dolorem unde, error magnam alias asperiores quam quos dolor, ipsum soluta laudantium non accusamus? Ex, obcaecati possimus!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis aliquam neque, debitis voluptate praesentium odio excepturi explicabo fugit enim? Non praesentium, suscipit labore ut hic sit doloremque culpa. Cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam animi, neque molestiae harum dolor repellat nobis eveniet quibusdam doloremque facere fugit temporibus voluptatibus impedit dolorum nulla tenetur, id maxime quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut nulla cumque qui mollitia ea architecto minus, in minima! Accusantium placeat tempora odio libero. Officiis debitis iste nihil, illo consequatur repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia vitae temporibus ipsa aliquid commodi beatae laudantium consectetur, impedit obcaecati hic sapiente nihil tempora sed, sunt, at vel placeat distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium iusto eum unde aliquid ipsam assumenda nostrum repellendus omnis laborum inventore odit repellat velit, minus quasi mollitia voluptatibus! Inventore, cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at eius esse autem dolorem unde, error magnam alias asperiores quam quos dolor, ipsum soluta laudantium non accusamus? Ex, obcaecati possimus!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis aliquam neque, debitis voluptate praesentium odio excepturi explicabo fugit enim? Non praesentium, suscipit labore ut hic sit doloremque culpa. Cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam animi, neque molestiae harum dolor repellat nobis eveniet quibusdam doloremque facere fugit temporibus voluptatibus impedit dolorum nulla tenetur, id maxime quo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut nulla cumque qui mollitia ea architecto minus, in minima! Accusantium placeat tempora odio libero. Officiis debitis iste nihil, illo consequatur repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta officia vitae temporibus ipsa aliquid commodi beatae laudantium consectetur, impedit obcaecati hic sapiente nihil tempora sed, sunt, at vel placeat distinctio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium iusto eum unde aliquid ipsam assumenda nostrum repellendus omnis laborum inventore odit repellat velit, minus quasi mollitia voluptatibus! Inventore, cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum at eius esse autem dolorem unde, error magnam alias asperiores quam quos dolor, ipsum soluta laudantium non accusamus? Ex, obcaecati possimus!</p>
 </body>
 </html>
