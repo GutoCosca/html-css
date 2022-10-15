@@ -27,6 +27,9 @@
         th.genero {
             text-align: center;
         }
+        tfoot > tr > td {
+            text-align: right;
+        }
 
     </style>
 </head>
@@ -36,14 +39,14 @@
         <caption> Filmes Favoritos</caption>
         <thead>
             <tr>
-                <th scope="col">Nomes</th>
                 <th scope="col">Grupos</th>
-                <th scope="col" colspan="3">Filmes</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3" class="genero">Mulheres</td>
+                <th rowspan="3" class="genero" scope="rowgroup">Mulheres</td>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -62,7 +65,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3" class="genero">Homens</td>
+                <th rowspan="3" class="genero" scope="rowgroup">Homens</td>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Ámnésia</td>
@@ -81,6 +84,12 @@
                 <td>Toy Strory</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row"> Total</th>
+                <td>18</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
