@@ -1,8 +1,8 @@
 # Cursos
 
- <h2>HTML5 e CSS3:</h2>
+ <h2>HTML5 e CSS3:
  
-     <p>Aprendendo a criar sites e estilos</p>
+     <p>aprendendo a criar sites e estilos
      
-     <a ref="https://gutocosca.github.io/projeto-android/">Desafio 10 - Projeto Androide</a>
+     <a href="https://gutocosca.github.io/projeto-android/">Desafio 10 - Projeto Androide
 
