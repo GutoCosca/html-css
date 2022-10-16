@@ -4,5 +4,5 @@
  
      Aprendendo a criar sites e estilos
      
-     *[Desafio 10 - Projeto Androide](https://gutocosca.github.io/projeto-android)
+     *[Desafio 10 - Projeto Androide](https://gutocosca.github.io/projeto-android/)
 
