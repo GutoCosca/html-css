@@ -6,5 +6,5 @@
      
    * [Desafio 10 - Projeto Android;](gutocosca.github.io/html-css/Exercícios/desafios-modulo02/des10/android.html)
 
-   * [Desafio 11 - Projeto Cordel](https://gutocosca.github.io/html-css/Exercícios/desafios-modulo02/des11/index.html)
+   * [Desafio 11 - Projeto Cordel](https://gutocosca.github.io/html-css/Exercícios/desafios-modulo02/des12/index.html)
 
