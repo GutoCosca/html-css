@@ -1,3 +1,5 @@
+<img src="imagens/Guto-pq.jpg" width="300px" align="right">
+
 # Cursos
 
  ### **HTML5 e CSS3:**
