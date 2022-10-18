@@ -1,4 +1,4 @@
-<img src="imagens/Guto-pq.jpg" width="300px" align="right">
+<img src="Imagens/Guto-pq.jpg" width="300px" align="right">
 
 # Cursos
 
