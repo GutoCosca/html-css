@@ -10,4 +10,3 @@
 
    2. [Desafio 11 - Projeto Cordel](https://gutocosca.github.io/html-css/Exercícios/desafios-modulo02/des12/index.html)
    
-   3. Desafio 11 - <a href="https://gutocosca.github.io/html-css/Exercícios/desafios-modulo02/des12/index.html" target="_blank">Projeto Cordel</a>
