@@ -33,3 +33,21 @@ main {
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
+
+#tela {
+    position: relative;
+    top: 82px;
+    left: 24px;
+    width: 264px;
+    height: 468px;
+}
+
+#redes-sociais {
+    position: absolute;    
+    top: 45%;
+    right: 10%;
+    transform: translate(0%, -50%);
+    width: 100px;
+    height: 500px;
+    background-color: blueviolet;
+}
