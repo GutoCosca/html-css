@@ -1,27 +1,29 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 html, body {
     height: 100vh;
     width: 100vw;
     background-color: #000000;
+    background-attachment: fixed;
 }
 
 body {
     background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    margin: 0px;
 }
 
 main {
     height: 100vh;
     position: relative;
-    margin: -10px;
+    margin: 0px;
 }
 
 #telefone {
@@ -45,9 +47,39 @@ main {
 #redes-sociais {
     position: absolute;    
     top: 45%;
-    right: 10%;
+    right: 15%;
     transform: translate(0%, -50%);
-    width: 100px;
-    height: 500px;
-    background-color: blueviolet;
+    width: 50px;
+    height: 350px;
 }
+
+img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 2px 2px 4px 3px #00000096;
+    box-sizing: border-box;
+}
+
+img:hover {
+    border: 3px solid #ffffff81;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 4px 3px #00000096;
+    transition: transform 1s, border 1.25s;
+}
+
+#footer {
+    position: relative;
+    top: 95%;
+    text-align: center;
+    background-color: #00000056;
+}
+
+p {
+    padding: 10px;
+    font-size: .9em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 3px 3px 5px #000000dc;
+}
+
