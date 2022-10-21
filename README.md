@@ -6,7 +6,7 @@
  
     Aprendendo a criar sites.
      
-   1. [Desafio 10 - Projeto Android;]
+   1. [Desafio 10 - Projeto Android;][1]
 
    2. [Desafio 11 - Projeto Cordel;](https://gutocosca.github.io/html-css/Exercícios/desafios-modulo02/des12/index.html).
    
