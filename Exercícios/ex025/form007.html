@@ -28,13 +28,15 @@
             <label for="iprof">Profissão</label>
             <input type="text" name="prof" id="iprof" list="lstprof">
             <datalist id="lstprof">
-                <optgroup label="Humanas">
-                    <option value="ADM">Administrador</option>
-                    <option value="CONT">Contador</option>
-                </optgroup>
-                <option value="DES">Desenvolvedor</option>
-                <option value="PROF">Professor</option>
+                <option>Administrador</option>
+                <option>Contador</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
             </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensaagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea> <!-- Usar o metodo post por causa da limitação de envio-->
         </p>
         <p>
             <input type="submit" value="Enviar">
