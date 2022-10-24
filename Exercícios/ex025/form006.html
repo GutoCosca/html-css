@@ -7,8 +7,23 @@
 </head>
 <body>
     <h1></h1>
-    <form action="cadastro.php" method="get">
-        
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="icor">cor</label>
+            <input type="color" name="cor" id="icor">
+        </p>
+        <p>
+            <label for="inivel">Nível de satisfação</label>
+            <input type="range" name="nivel" id="inivel" value="1" min="1" max="10" step=".5">
+        </p>
+        <p>
+            <label for="ifoto">foto do perfil</label>
+            <input type="file" name="foto" id="ifoto"> <!-- para usar o file usar o metodo post-->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
