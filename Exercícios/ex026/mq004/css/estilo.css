@@ -60,3 +60,7 @@ img#pc {
 img#tv{
     display: none;
 }
+
+footer {
+    display: none;
+}
