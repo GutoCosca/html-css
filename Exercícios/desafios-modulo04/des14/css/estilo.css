@@ -52,3 +52,7 @@ div#foto {
 div#formulario {
     padding: 10px;
 }
+
+form i {
+    color: #0000ff;
+}
