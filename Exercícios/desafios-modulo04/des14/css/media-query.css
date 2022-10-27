@@ -15,7 +15,7 @@
         margin: 0px;
         padding: 0px;
         float: right;
-        width: 70%;
+        width: 40%;
         height: 100%;        
     }
 
@@ -34,7 +34,7 @@
     
     div#foto {
         float: left;
-        width: 30%;
+        width: 60%;
         height: 100%;
     }
 
@@ -75,7 +75,6 @@
 
     div#formulario > form {
         padding: 15px 10px;
-        font-size: 2em;
     }
     
     div#foto {
