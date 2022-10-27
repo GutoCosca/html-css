@@ -50,6 +50,7 @@ menu a {
     background-color: #3f3f3f;
     color: #ffffff;
     border-top: 2px solid #808080;
+    border-radius: 10px;
 }
 
 menu a:hover {
