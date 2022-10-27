@@ -35,6 +35,8 @@ section#login {
     overflow: hidden;
     width: 250px;
     height: 500px;
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 div {
