@@ -65,15 +65,17 @@
 
     div#formulario > h1 {
         padding: 10px;
+        text-align: center;
     }
 
     div#formulario > p {
         padding: 2px 10px;
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     div#formulario > form {
         padding: 15px 10px;
+        font-size: 2em;
     }
     
     div#foto {
