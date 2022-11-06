@@ -24,5 +24,5 @@
 
 [4]: https://gutocosca.github.io/html-css/Exercícios/desafios-modulo04/des14/index.html "Curso em Vídeo - Prof. Gustavo Guanabara"
 
-[5]: https://gutocosca.github.io/html-css/VotoJogo/index.html
+[5]: https://gutocosca.github.io/html-css/VotoJogos/index.html
 
