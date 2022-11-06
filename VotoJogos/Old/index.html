@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/media_querry.css">
+</head>
+<body>
+    <header>
+        <div class="imgem" id="iventilador"></div>
+        <nav>
+            <a class="menu" id="ilogin" href="#" onclick="clickEntrar()">Entrar</a>
+            <a class="menu" id="iacesso" href="#" onclick="clickMenu()">Minha Área</a>
+            <menu id="iarea" onclick="clickMenu()">
+                <ul>
+                    <li><a class="menu" href="#" >Meu perfil</a></li>
+                    <li><a class="menu" href="#" >Votação</a></li>
+                    <li><a class="menu" href="#" onclick="clickSair()">Sair</a></li>
+                </ul>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <div id="paginas">
+            <iframe src="pag01.html" frameborder="0"></iframe>
+        </div>
+        <menu  id="navega">
+            <ul>
+                <li><a href="#">Anter. página</a></li>
+                <li><a href="#">Primeira página</a></li>
+                <li><a href="#">Prox. página</a></li>
+                <li><a href="#">Última página</a></li>
+            </ul>
+        </menu>
+    </main>
+    <footer>
+        <div id="autor"></div>
+    </footer>
+    <script>
+        function clickEntrar() {
+            ilogin.style.display = 'none';
+            iacesso.style.display = 'block';
+        }
+
+        function clickMenu() {
+            if (iarea.style.display == 'inline-block') {
+                iarea.style.display = 'none'
+            }
+            else {
+                iarea.style.display = 'inline-block'
+            }
+        }
+
+        function clickSair() {
+            ilogin.style.display = 'block';
+            iacesso.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

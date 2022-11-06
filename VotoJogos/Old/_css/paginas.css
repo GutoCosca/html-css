@@ -1,0 +1,107 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+
+@media screen and (max-width: 599px) {
+    * {
+        font-family: 'Comfortaa', cursive;
+        margin: 0px;
+        padding: 0px;
+        font-size: 0.95em;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    #cabeca > th {
+        font-size: 1em;
+        font-weight: bold;
+        border: 1px solid #000000;
+        padding: 5px 8px;
+    }
+
+    img {
+        width: 65px;
+    }
+
+    td.capa {
+        margin: -5px;
+        padding: 0px;
+        text-align: center;
+        width: 65px;
+    }
+    td {
+        border: 1px solid #000000;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    
+    td.jogo{
+        text-align: left;
+    }
+}
+@media screen and (min-width: 600px) {
+    * {
+        font-family: 'Comfortaa', cursive;
+        margin: 0px;
+        padding: 0px;
+        font-size: 1em;
+    }
+    
+    table {
+        border-collapse: collapse;
+    }
+
+    #cabeca > th {
+        font-size: 1.1em;
+        font-weight: bold;
+        border: 1px solid #000000;
+        padding: 5px 8px;
+    }
+
+    img {
+        width: 95px;
+        height: 95px;
+    }
+
+    td.capa {
+        margin: -15px;
+        padding: 0px;
+        text-align: center;
+        width: 95px;
+    }
+    td {
+        border: 1px solid #000000;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    td.jogo{
+        text-align: left;
+    }
+}
+
+
+
+/*td#img01 {
+    background: center url('https://lh3.google.com/pw/AL9nZEX5qpv2GbPTf_N3qTD85zhGbh_Ja_ULClPiGeAvHnOggCH1Dlu44vrU969m5umOw1FJqGfeu88b3ID3FMz9Wr-9_McWJ8A=s200-no?authuser=0') no-repeat;    
+}
+
+td#img02 {
+    background: center url('https://lh3.google.com/pw/AL9nZEUmOrl2ioCaRFDWUwK9jwcxYgQtWGQ39zWBDGVtpNgPzwZIx802c2t66mo-FUhEV4e243Uqi011YXtReEGT1fC-ma1euq8=s200-no?authuser=0') no-repeat;
+}
+
+td#img03 {
+    background: center url('') no-repeat;
+}
+
+td#img04 {
+    background: center url('') no-repeat;
+}
+
+td#img05 {
+    background: center url('') no-repeat;
+}*/
+
