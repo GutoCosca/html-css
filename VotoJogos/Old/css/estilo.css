@@ -10,7 +10,7 @@
 }
 
 html, body {
-    width: 380px;
+    width: 400px;
     height: 100vh;
 }
 
@@ -22,7 +22,7 @@ header > div {
     display: block;
     background-color: #A93EB5;
     border: 2px solid #000000;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     width: 100vw;
     height: 15vh;
 }
@@ -75,7 +75,7 @@ a.menu {
 
 main > div {
     display: block;
-    position: relative;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
     width: 380px;
@@ -89,7 +89,7 @@ div > iframe {
     height: 722.5px;
 }
 
-/*main > div#navega {
+main > div#navega {
     border: 2px solid #000000;
     display: block;
     width: 100vw;
@@ -123,4 +123,4 @@ footer > div > p > a {
     text-decoration: none;
     color: #ffffff;
     text-shadow: 0px 0px 3px #000000;
-}*/
+}
