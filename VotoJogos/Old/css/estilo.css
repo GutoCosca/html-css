@@ -10,8 +10,9 @@
 }
 
 html, body {
-    width: 400px;
+    width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 body {
@@ -29,8 +30,8 @@ header > div {
 
 div#iventilador {
     background:  center url(../imagens/ventilador_peq.gif) no-repeat;
-    height: 100%;
-    width: 100%;
+    width: 100vw;
+    height: 15vh;
 }
 
 nav a {
@@ -73,9 +74,15 @@ a.menu {
     font-weight:400;
 }
 
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
 main > div {
     display: block;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     width: 380px;

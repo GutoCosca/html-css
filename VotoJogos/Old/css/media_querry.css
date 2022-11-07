@@ -13,8 +13,8 @@
 
     div#iventilador {
         background:  center url(../imagens/ventilador.gif) no-repeat;
-        height: 100%;
-        width: 100%;
+        width: 100vw;
+        height: 15vh;
     }
     
     nav {
