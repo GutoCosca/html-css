@@ -9,18 +9,20 @@
 </head>
 <body>
     <header>
-        <div class="imgem" id="iventilador"></div>
-        <nav>
-            <a class="menu" id="ilogin" href="#" onclick="clickEntrar()">Entrar</a>
-            <a class="menu" id="iacesso" href="#" onclick="clickMenu()">Minha Área</a>
-            <menu id="iarea" onclick="clickMenu()">
-                <ul>
-                    <li><a class="menu" href="#" >Meu perfil</a></li>
-                    <li><a class="menu" href="#" >Votação</a></li>
-                    <li><a class="menu" href="#" onclick="clickSair()">Sair</a></li>
-                </ul>
-            </menu>
-        </nav>
+        <div>
+            <div class="imgem" id="iventilador"></div>
+            <nav>
+                <a class="menu" id="ilogin" href="#" onclick="clickEntrar()">Entrar</a>
+                <a class="menu" id="iacesso" href="#" onclick="clickMenu()">Minha Área</a>
+                <menu id="iarea" onclick="clickMenu()">
+                    <ul>
+                        <li><a class="menu" href="#" >Meu perfil</a></li>
+                        <li><a class="menu" href="#" >Votação</a></li>
+                        <li><a class="menu" href="#" onclick="clickSair()">Sair</a></li>
+                    </ul>
+                </menu>
+            </nav>
+        </div>
     </header>
     <main>
         <div id="paginas">
@@ -36,7 +38,11 @@
         </menu>
     </main>
     <footer>
-        <div id="autor"></div>
+        <div id="autor">
+            <p>
+                Criado por <a href="https://github.com/GutoCosca">Gustavo Coscarello</a>
+            </p>
+        </div>
     </footer>
     <script>
         function clickEntrar() {

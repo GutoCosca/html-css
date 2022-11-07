@@ -30,9 +30,15 @@ footer> div {
     height: 6vh;
 }
 
-footer > div >p {
+footer > div > p {
     color: #ffffff;
     text-align: center;
     text-shadow: 0px 0px 3px #000000;
     padding-top: 15px;
+}
+
+footer > div > p > a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0px 0px 3px #000000;
 }
