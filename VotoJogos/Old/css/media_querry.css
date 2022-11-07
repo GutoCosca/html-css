@@ -36,7 +36,7 @@
         margin-right: 50px;
     }
     
-    menu {
+    menu#area {
         display: none;
         position: relative;
         float: right;
@@ -45,11 +45,11 @@
         text-align: center;
     }
 
-    menu > ul {
+    menu#area > ul {
         list-style-type: none;
     }
     
-    menu >ul > li {
+    menu#area >ul > li {
         display: block;
         margin-top: 18px;
     }
