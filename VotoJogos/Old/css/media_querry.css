@@ -18,7 +18,6 @@
     }
     
     body {
-        background-color: #ade6ff;
     }
     
     header > div {
@@ -89,16 +88,17 @@
     main {
         position: relative;
         width: 100vw;
-        height: 130vh;
+        height: 118vh;
     }
     
-    main > div {
+    main > div#paginas {
         display: block;
+        background-color: #ade6ff;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
         width: 600px;
-        height: 1080px;
+        height: 1032px;
         padding: 15px;
     }
 
@@ -111,7 +111,7 @@
     main > div#navega {
         width: 100vw;
         height: 30px;
-        margin-top: -20px;
+        margin-top: 15px;
     }
 
     div > menu {
