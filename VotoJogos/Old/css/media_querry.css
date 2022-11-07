@@ -12,7 +12,7 @@
     }
 
     div#iventilador {
-        background:  center url(../_imagens/ventilador.gif) no-repeat;
+        background:  center url(../imagens/ventilador.gif) no-repeat;
         height: 100%;
         width: 100%;
     }
