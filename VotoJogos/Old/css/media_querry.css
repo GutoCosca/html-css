@@ -11,6 +11,25 @@
         color: #000000;
     }
 
+    html, body {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+    
+    body {
+        background-color: #ade6ff;
+    }
+    
+    header > div {
+        display: block;
+        background-color: #A93EB5;
+        border: 2px solid #000000;
+        padding: 10px 0px 10px 0px;
+        width: 100vw;
+        height: 15vh;
+    }
+    
     div#iventilador {
         background:  center url(../imagens/ventilador.gif) no-repeat;
         width: 100vw;
@@ -36,22 +55,22 @@
         margin-right: 50px;
     }
     
-    menu#area {
+    menu#iarea {
         display: none;
         position: relative;
         float: right;
-        margin-top:25px;
+        margin-top: 25px;
         margin-right: -110px;
         text-align: center;
     }
 
-    menu#area > ul {
+    menu#iarea > ul {
         list-style-type: none;
     }
     
-    menu#area >ul > li {
+    menu#iarea >ul > li {
         display: block;
-        margin-top: 18px;
+        margin-top: 3px;
     }
     
     a.menu {
@@ -67,13 +86,19 @@
         text-align: center;
     }
 
+    main {
+        position: relative;
+        width: 100vw;
+        height: 130vh;
+    }
+    
     main > div {
         display: block;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        width: 600PX;
-        height: 1200px;
+        width: 600px;
+        height: 1080px;
         padding: 15px;
     }
 
@@ -82,20 +107,50 @@
         width: 600px;
         height: 1032px;
     }
-    
-    menu#navega > ul > li {
-        display: block;
-        border: 1px solid #000000;
+
+    main > div#navega {
+        width: 100vw;
+        height: 30px;
+        margin-top: -20px;
     }
 
-    footer> div {
+    div > menu {
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    div#navega > menu > ul {
+        list-style-type: none;
+    }
+    
+    div#navega > menu > ul > li {
+        display: inline-block;
+        background-color: #A93EB5;
+        border: 1px solid #000000;
+        border-radius: 5px 20px;
+        width: 75px;
+        font-size: 1.5em;
+        color: #ffffff;
+        text-align: center;
+        text-shadow: 0px 0px 3px #000000;
+        margin: 0px 40px;
+    
+    }
+    
+    div#navega > menu > ul > li > a{
+        color:#ffffff
+    }
+    
+    footer > div {
         background-color: #00000083;
         margin: 0px;
         padding:0px;
         width: 100vw;
         height: 6vh;
     }
-
+    
     footer > div > p {
         color: #ffffff;
         text-align: center;

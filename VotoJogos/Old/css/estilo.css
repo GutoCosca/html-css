@@ -108,11 +108,11 @@ div#navega > menu > ul {
 }
 
 div#navega > menu > ul > li {
+    display: inline-block;
     background-color: #A93EB5;
     border: 1px solid #000000;
     border-radius: 5px 20px;
     width: 75px;
-    display: inline-block;
     font-size: 1.5em;
     color: #ffffff;
     text-align: center;
@@ -125,7 +125,7 @@ div#navega > menu > ul > li > a{
     color:#ffffff
 }
 
-footer> div {
+footer > div {
     background-color: #00000083;
     margin: 0px;
     padding:0px;
