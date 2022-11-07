@@ -19,6 +19,7 @@
     
     nav {
         margin-top: -13px;
+        background-color: #A93EB5;
     }
      
     a#ilogin {
@@ -39,7 +40,7 @@
         display: none;
         position: relative;
         float: right;
-        margin-top:20px;
+        margin-top:25px;
         margin-right: -110px;
         text-align: center;
     }
@@ -50,7 +51,7 @@
     
     menu >ul > li {
         display: block;
-        margin-top: 15px;
+        margin-top: 18px;
     }
     
     a.menu {

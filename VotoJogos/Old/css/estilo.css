@@ -33,25 +33,26 @@ div#iventilador {
     width: 100%;
 }
 
-nav {
-    margin-top: -13px;
+nav a {
+    background-color: #A93EB5;
 }
 
 a#ilogin {
     display: block;
     float: left;
-    margin-top: -7px;
+    margin-top: -20px;
 }
 
 a#iacesso {
     display: none;
     float:left;
-    margin-top: -7px;
+    margin-top: -20px;
 }
 
 menu {
     display: none;
-    margin-top:-10px;
+    position: absolute;
+    margin-top: -12px;
 }
 
 menu > ul {
@@ -59,7 +60,7 @@ menu > ul {
 }
 
 menu >ul > li {
-    display: inline;
+    display: inline-block;
 }
 
 a.menu {
