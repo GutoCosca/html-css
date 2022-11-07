@@ -26,15 +26,15 @@
     </header>
     <main>
         <div id="paginas">
-            <iframe src="pag01.html" frameborder="0"></iframe>
+            <iframe id="pagina" src="pag01.html" frameborder="0"></iframe>
         </div>
         <div id="navega">
             <menu>
                 <ul>
-                    <li><a href="#">&lt&lt</a></li>
-                    <li><a href="#">&lt</a></li>
-                    <li><a href="#">&gt</a></li>
-                    <li><a href="#">&gt&gt</a></li>
+                    <li><a href="#" onclick="clickPrimeira()">&lt&lt</a></li>
+                    <li><a href="#" onclick="clickAnterior()">&lt</a></li>
+                    <li><a href="#" onclick="clickProxima()">&gt</a></li>
+                    <li><a href="#" onclick="clickUltima()">&gt&gt</a></li>
                 </ul>
             </menu>
         </div>
@@ -65,6 +65,28 @@
             ilogin.style.display = 'block';
             iacesso.style.display = 'none';
         }
+
+        function clickPrimeira() {
+            document.getElementById('pagina').src = "pag01.html"
+        }
+        
+        function clickProxima(){
+            if(document.getElementById('pagina').src = "pag01.html"){
+                document.getElementById('pagina').src = "pag02.html";
+            }
+            else if (document.getElementById('pagina').src = "pag02.html"){
+                document.getElementById('pagina').src = "pag03.html";
+            }
+        }
+
+
+
+
+        function clickUltima() {
+        document.getElementById('pagina').src = "pag03.html";
+        }
+        
+
     </script>
 </body>
 </html>
