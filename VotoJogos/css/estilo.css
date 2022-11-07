@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body {
-    background-color: #ade6ff;
     margin: 0px;
     padding: 0px;
 }
@@ -15,7 +14,7 @@ header > div {
 }
 
 main > div {
-    background-color: #ffffff;
+    background-color: #ade6ff;
     margin: 0px;
     padding: 0px;
     width: 100vw;
