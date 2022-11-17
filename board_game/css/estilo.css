@@ -102,6 +102,13 @@ main > div#navega {
     margin-top: 15px;
 }
 
+div > menu {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 div#navega > menu > ul {
     list-style-type: none;
     margin-left: 30px;
@@ -123,6 +130,10 @@ div#navega > menu > ul > li {
 
 div#navega > menu > ul > li > a{
     color:#ffffff
+}
+
+footer {
+    margin-bottom: -10px;
 }
 
 footer > div {
