@@ -11,6 +11,10 @@
         font-size: 0.95em;
     }
 
+    .classifica {
+        width: 60px;
+    }
+
     table {
         border-collapse: collapse;
     }
