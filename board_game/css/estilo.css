@@ -111,6 +111,7 @@ div > menu {
 
 div#navega > menu > ul {
     list-style-type: none;
+    margin: 0px 0px 0px 10px
     
 }
 
@@ -124,7 +125,7 @@ div#navega > menu > ul > li {
     color: #ffffff;
     text-align: center;
     text-shadow: 0px 0px 3px #000000;
-    margin-left: 20px;
+    margin: 0px 10px;
 
 }
 
