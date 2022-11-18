@@ -8,15 +8,19 @@
         font-family: 'Comfortaa', cursive;
         margin: 0px;
         padding: 0px;
-        font-size: 0.95em;
-    }
-
-    .classifica {
-        width: 60px;
+        font-size: 0.94em;
     }
 
     table {
         border-collapse: collapse;
+    }
+
+    .classifica {
+        width: 8%;
+    }
+
+    .voto, .ponto, .media {
+        width: 15%;
     }
 
     #cabeca > th {
@@ -34,7 +38,7 @@
         margin: -5px;
         padding: 0px;
         text-align: center;
-        width: 65px;
+        width: 17%;
     }
     td {
         border: 1px solid #000000;
@@ -44,6 +48,8 @@
     
     td.jogo{
         text-align: left;
+        width: 80px;
+        page-break-inside: avoid;
     }
 }
 @media screen and (min-width: 600px) {
