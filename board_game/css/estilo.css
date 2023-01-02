@@ -15,145 +15,137 @@ html, body {
     overflow-x: hidden;
 }
 
-body {
-}
-
-header > div {
+header {
     display: block;
-    background-color: #A93EB5;
-    border: 2px solid #000000;
-    padding: 10px 0px 10px 0px;
-    width: 100vw;
-    height: 15vh;
+    background-color: #a93eb5;
+    border: 2px solid  #000000;
+    height: 12vh;
 }
 
 div#iventilador {
-    background:  center url(../imagens/ventilador_peq.gif) no-repeat;
     width: 100vw;
-    height: 15vh;
+    height: 8vh;
+    background: center url(../imagens/ventilador_peq.gif) no-repeat;
 }
 
-nav a {
-    background-color: #A93EB5;
+span.material-symbols-outlined {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
 }
 
-a#ilogin {
-    display: block;
-    float: left;
-    margin-top: -20px;
+span.material-symbols-outlined:hover {
+    color: #000000;
+    cursor: pointer;
 }
 
-a#iacesso {
+span#burguer {
+    font-size: 1.8em;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+menu#principal {
     display: none;
-    float:left;
-    margin-top: -20px;
+    margin-left: 50px;
+    margin-top: -32px;
 }
 
-menu#iarea {
-    display: none;
-    position: absolute;
-    margin-top: -12px;
-}
-
-menu#iarea > ul {
+menu#principal > ul {
     list-style-type: none;
 }
 
-menu#iarea >ul > li {
+li.item {
     display: inline-block;
+    padding: 2px;
+    width: 70px;
+    height: 20px;
+    border: 1px solid #772c80;
+    box-shadow: 5px 4px #772c80;
+    border-radius: 5px 20px;
+    text-align: center;
 }
 
-a.menu {
-    border: 2px solid #000000;
-    border-radius: 5px 20px;
-    padding: 5px 10px;
-    margin-left: 5px;
-    color:#ffffff;
-    font-size: 1em;
-    font-weight:400;
+li.item > span.material-symbols-outlined {
+    font-size: 1.4em;
 }
 
 main {
     position: relative;
     width: 100vw;
-    height: 88vh;
+    height: 82vh;
 }
 
-main > div#paginas {
+div#paginas {
     display: block;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 380px;
+    height: 722.5px;  
+    padding: 15px;
     background-color: #ade6ff;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 380px;
-    height: 722.5px;
-    padding: 15px;    
 }
 
-div > iframe {
+iframe#pagina {
     display: block;
     width: 380px;
-    height: 722.5px;
+    height: 721.5px;
+    border: none;
+    align-items: center;
 }
 
-main > div#navega {
-    width: 100vw;
-    height: 6vh;
-    margin-top: 15px;
-}
-
-/*div > menu {
-    display: inline-block;
+menu#pages {
+    display: none;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-}*/
+}
 
-div#navega > menu > ul {
+menu#pages > ul {
     list-style-type: none;
     margin: 0px 0px 0px 10px
     
 }
 
-div#navega > menu > ul > li {
+menu#pages > ul > li {
     display: inline-block;
-    background-color: #A93EB5;
+    width: 50px;
+    background-color: #a93eb5;
     border: 1px solid #000000;
     border-radius: 5px 20px;
-    width: 75px;
-    font-size: 1.5em;
-    color: #ffffff;
+    margin: 5px 10px;
+    padding: 3px 1px;
     text-align: center;
-    text-shadow: 0px 0px 3px #000000;
-    margin: 0px 10px;
-
+    box-shadow: 4px 4px #00000085;
 }
 
-div#navega > menu > ul > li > a{
-    color:#ffffff
+menu#pages > ul > li > a {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+menu#pages > ul > li#pag {
+    width: 75px;
+    padding: 5px 0px;
+    font-size: 1em;
+    color: #ffffff;
 }
 
 footer {
-    margin-bottom: -10px;
+    margin-top: 22px;
 }
 
 footer > div {
     background-color: #00000083;
-    margin: 0px;
     padding:0px;
     width: 100vw;
-    height: 6vh;
 }
 
 footer > div > p {
     color: #ffffff;
     text-align: center;
     text-shadow: 0px 0px 3px #000000;
-    padding-top: 20px;
+    padding: 6px 0px;
 }
 
 footer > div > p > a {
-    text-decoration: none;
-    color: #ffffff;
-    text-shadow: 0px 0px 3px #000000;
-}
