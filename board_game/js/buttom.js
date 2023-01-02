@@ -20,17 +20,17 @@ function clickMenu(){
     }
 }
 
-// Alternar entr tabela e Gráfico
+// Alternar entre tabela e gráfico
 function clickGrafico() {
-        document.getElementById('pagina').src = 'grafico.html'
+    document.getElementById('pagina').src = 'grafico.html'
 
-        pages.style.display = 'none'
-    }
+    pages.style.display = 'none'
+}
 
 function clickTabela(){
     document.getElementById('pagina').src = 'pag01.html'
 
-        pages.style.display = 'inline-block'
+    pages.style.display = 'inline-block'
 }
 
 /* Controles do menu

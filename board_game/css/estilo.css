@@ -73,7 +73,7 @@ li.item > span.material-symbols-outlined {
 main {
     position: relative;
     width: 100vw;
-    height: 82vh;
+    height: 85vh;
 }
 
 div#paginas {
@@ -103,9 +103,7 @@ menu#pages {
 }
 
 menu#pages > ul {
-    list-style-type: none;
-    margin: 0px 0px 0px 10px
-    
+    list-style-type: none;    
 }
 
 menu#pages > ul > li {
@@ -121,13 +119,13 @@ menu#pages > ul > li {
 }
 
 menu#pages > ul > li > a {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #ffffff;
 }
 menu#pages > ul > li#pag {
     width: 75px;
     padding: 5px 0px;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #ffffff;
 }
 
@@ -137,8 +135,7 @@ footer {
 
 footer > div {
     background-color: #00000083;
-    padding:0px;
-    width: 100vw;
+    padding: 0px;
 }
 
 footer > div > p {
@@ -147,5 +144,3 @@ footer > div > p {
     text-shadow: 0px 0px 3px #000000;
     padding: 6px 0px;
 }
-
-footer > div > p > a {
