@@ -15,135 +15,141 @@ html, body {
     overflow-x: hidden;
 }
 
-header {
+body {
+}
+
+header > div {
     display: block;
-    background-color: #a93eb5;
-    border: 2px solid  #000000;
-    height: 12vh;
+    background-color: #A93EB5;
+    border: 2px solid #000000;
+    padding: 10px 0px 10px 0px;
+    width: 100vw;
+    height: 15vh;
 }
 
 div#iventilador {
+    background:  center url(../imagens/ventilador_peq.gif) no-repeat;
     width: 100vw;
-    height: 8vh;
-    background: center url(../imagens/ventilador_peq.gif) no-repeat;
+    height: 15vh;
 }
 
-span.material-symbols-outlined {
-    display: inline-block;
-    color: #ffffff;
-    text-align: center;
+nav a {
+    background-color: #A93EB5;
 }
 
-span.material-symbols-outlined:hover {
-    color: #000000;
-    cursor: pointer;
+a#ilogin {
+    display: block;
+    float: left;
+    margin-top: -20px;
 }
 
-span#burguer {
-    font-size: 1.8em;
-    margin-top: 8px;
-    padding-left: 10px;
-}
-
-menu#principal {
+a#iacesso {
     display: none;
-    margin-left: 50px;
-    margin-top: -32px;
+    float:left;
+    margin-top: -20px;
 }
 
-menu#principal > ul {
+menu#iarea {
+    display: none;
+    position: absolute;
+    margin-top: -12px;
+}
+
+menu#iarea > ul {
     list-style-type: none;
 }
 
-li.item {
+menu#iarea >ul > li {
     display: inline-block;
-    padding: 2px;
-    width: 70px;
-    height: 20px;
-    border: 1px solid #772c80;
-    box-shadow: 5px 4px #772c80;
-    border-radius: 5px 20px;
-    text-align: center;
 }
 
-li.item > span.material-symbols-outlined {
-    font-size: 1.4em;
+a.menu {
+    border: 2px solid #000000;
+    border-radius: 5px 20px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    color:#ffffff;
+    font-size: 1em;
+    font-weight:400;
 }
 
 main {
     position: relative;
     width: 100vw;
-    height: 82vh;
+    height: 88vh;
 }
 
-div#paginas {
+main > div#paginas {
     display: block;
-    position:relative;
+    background-color: #ade6ff;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     width: 380px;
     height: 722.5px;
-    padding: 15px;
-    background-color: #ade6ff;
+    padding: 15px;    
 }
 
-iframe#pagina {
+div > iframe {
     display: block;
     width: 380px;
-    height: 721.5px;
-    border: none;
-    align-items: center;
+    height: 722.5px;
 }
 
-menu#pages {
-    display: none;
+main > div#navega {
+    width: 100vw;
+    height: 6vh;
+    margin-top: 15px;
+}
+
+/*div > menu {
+    display: inline-block;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-}
+}*/
 
-menu#pages > ul {
+div#navega > menu > ul {
     list-style-type: none;
+    margin: 0px 0px 0px 10px
+    
 }
 
-menu#pages > ul > li {
+div#navega > menu > ul > li {
     display: inline-block;
-    width: 50px;
-    background-color: #a93eb5;
+    background-color: #A93EB5;
     border: 1px solid #000000;
     border-radius: 5px 20px;
-    margin: 5px 10px;
-    padding: 3px 1px;
+    width: 75px;
+    font-size: 1.5em;
+    color: #ffffff;
     text-align: center;
-    box-shadow: 4px 4px #00000085;
+    text-shadow: 0px 0px 3px #000000;
+    margin: 0px 10px;
+
 }
 
-menu#pages > ul > li > a {
-    font-size: 1.2em;
-    color: #ffffff;
-}
-menu#pages > ul > li#pag {
-    width: 75px;
-    padding: 5px 0px;
-    font-size: 1em;
-    color: #ffffff;
+div#navega > menu > ul > li > a{
+    color:#ffffff
 }
 
 footer {
-    margin-top: 22px;
+    margin-bottom: -10px;
 }
 
 footer > div {
     background-color: #00000083;
+    margin: 0px;
     padding:0px;
     width: 100vw;
+    height: 6vh;
 }
 
 footer > div > p {
     color: #ffffff;
     text-align: center;
     text-shadow: 0px 0px 3px #000000;
-    padding: 6px 0px;
+    padding-top: 20px;
 }
 
 footer > div > p > a {

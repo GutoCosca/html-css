@@ -5,40 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Board Game</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/estilo copy.css">
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/media_querry.css">
 </head>
-<body onresize="tamanho()">
+<body>
     <header>
-        
-        <div class="imgem" id="iventilador"></div>
-        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
-        <menu id="principal">
-            <ul>
-                <li class="item"><span class="material-symbols-outlined">person</span></li>
-                <li class="item"><span class="material-symbols-outlined">how_to_vote</span></li>
-                <li class="item"><span class="material-symbols-outlined" onclick="clickTabela()">table_rows</span></li>
-                <li class="item"><span class="material-symbols-outlined" onclick="clickGrafico()" alt="Gráfico">equalizer</span></li>
-                <li class="item"><span class="material-symbols-outlined">logout</span></li>
-            </ul>
-        </menu>   
-    </header>
-    <main> <!-- Frame das pagina inserida -->
-        <div id="paginas">
-            <iframe id="pagina" src="pag01.html" ></iframe>
+        <div>
+            <div class="imgem" id="iventilador"></div>
+            <nav>
+                <a class="menu" id="ilogin" href="#" onclick="clickEntrar()">Entrar</a>
+                <a class="menu" id="iacesso" href="#" onclick="clickMenu()">Minha Área</a>
+                <menu id="iarea">
+                    <ul>
+                        <li><a class="menu" href="#" >Meu perfil</a></li>
+                        <li><a class="menu" href="#" >Votação</a></li>
+                        <li><a class="menu" href="#" onclick="clickSair()">Sair</a></li>
+                    </ul>
+                </menu>
+            </nav>
         </div>
-        
-        <menu id="pages">  <!--Menu de navegação das páginas dentro do frame-->
-            <ul>
-                <li><a href="#" onclick="clickPrimeira()">&lt&lt</a></li>
-                <li><a href="#" onclick="clickAnterior()">&lt</a></li>
-                <li id="pag">Pág. 01</li>
-                <li><a href="#" onclick="clickProxima()">&gt</a></li>
-                <li><a href="#" onclick="clickUltima()">&gt&gt</a></li>
-            </ul>
-        </menu> 
+    </header>
+    <main>
+        <div id="paginas">
+            <iframe id="pagina" src="pag01.html" frameborder="0"></iframe>
+        </div>
+        <div id="navega">
+            <menu>
+                <ul>
+                    <li><a href="#" onclick="clickPrimeira()">&lt&lt</a></li>
+                    <li><a href="#" onclick="clickAnterior()">&lt</a></li>
+                    <li><a href="#" onclick="clickProxima()">&gt</a></li>
+                    <li><a href="#" onclick="clickUltima()">&gt&gt</a></li>
+                </ul>
+            </menu>
+        </div>
     </main>
     <footer>
         <div id="autor">
@@ -47,6 +46,65 @@
             </p>
         </div>
     </footer>
-    <script src="js/buttom.js"></script>
+    <script>
+        function clickEntrar() {
+            ilogin.style.display = 'none';
+            iacesso.style.display = 'block';
+        }
+
+        function clickMenu() {
+            if (iarea.style.display == 'inline-block') {
+                iarea.style.display = 'none'
+            }
+            else {
+                iarea.style.display = 'inline-block'
+            }
+        }
+
+        var pag = 1
+        
+        function clickSair() {
+            ilogin.style.display = 'block';
+            iacesso.style.display = 'none';
+        }
+          
+        function clickPrimeira() {
+            document.getElementById('pagina').src = "pag01.html"
+            pag = 1
+            return pag
+        }
+        
+        function clickProxima() {
+            if (pag == 3) {
+                pag = 3
+            }
+            else {
+                pag ++
+            }
+            var proxPag = 'pag0' + String(pag) + '.html'
+            document.getElementById('pagina').src = proxPag
+            return pag    
+        }
+
+        function clickAnterior() {
+            if (pag == 1) {
+                pag = 1
+            }
+            else{
+                pag --
+            }
+            var antPag = 'pag0' + String(pag) + '.html'
+            document.getElementById('pagina').src = antPag
+            return pag
+        }
+
+        function clickUltima() {
+            document.getElementById('pagina').src = 'pag03.html'
+            pag = 3
+            return pag
+        }
+
+    </script>
+   
 </body>
 </html>

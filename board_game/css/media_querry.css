@@ -113,12 +113,12 @@
         margin-top: 50px;
     }
 
-    div > menu {
+    /*div > menu {
         display: inline-block;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-    }
+    }*/
     
     div#navega > menu > ul {
         list-style-type: none;
