@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
 
     * {
         margin: 0px;
@@ -17,7 +17,7 @@
         overflow-x: hidden;
     }
         
-    header > div {
+    header  {
         display: block;
         background-color: #A93EB5;
         border: 2px solid #000000;
@@ -28,9 +28,11 @@
     
     div#iventilador {
         background:  center url(../imagens/ventilador.gif) no-repeat;
+        background-size: 50%;
         width: 100vw;
         height: 15vh;
     }
+
     
     nav {
         margin-top: -13px;
@@ -60,9 +62,9 @@
         text-align: center;
     }
 
-    menu#iarea > ul {
+    /*menu#iarea > ul {
         list-style-type: none;
-    }
+    }*/
     
     menu#iarea >ul > li {
         display: block;
@@ -136,8 +138,14 @@
     
     }
     
+    div#navega > menu > ul > li#pag{
+        width: 100px;
+        font-size: 1em;
+        padding: 7.5px 0px;
+    }
+
     div#navega > menu > ul > li > a{
-        color:#ffffff
+        color: #ffffff;
     }
     
     footer > div {
@@ -160,4 +168,9 @@
         color: #ffffff;
         text-shadow: 0px 0px 3px #000000;
     }
+
+    span#burguer {
+        display: none;
+    }
 }
+

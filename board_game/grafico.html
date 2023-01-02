@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico</title>
+    <style>
+        @charset "UTF-8";
+
+        div#grafico{
+                width: 97vw;
+                height: 97vh;
+                
+                align-self: center;
+            }
+
+    </style>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawVisualization);
+
+        function drawVisualization() {
+            
+            var graf = google.visualization.arrayToDataTable([
+                ['Jogo', 'Média', {role: 'style'}],
+                ['Pandemic Rapid Response', 9.50, 'gold'],
+                ['Tsuro', 9.10, 'silver'],
+                ['Terroforming Mars (Base)', 9.00, '#b87333'],
+                ['Era: Idade Medieval', 9.00, '#e5e4e2'],
+                ['Marvel United: X-man', 9.00,'#4285f4'],
+                ['Arcadia Quest', 9.00,'#4285f4'],
+                ['Century: Um Novo Mundo', 9.00, '#4285f4'],
+                ['Between Two Castles Of Mod King Ludwig', 8.80,'#4285f4'],
+                ['Brazil: Imperial', 8.70,'#4285f4'],
+                ['Ticket To Ride', 8.70,'#4285f4'],
+                ['Batman: Gotham City Chronicles', 8.60,'#4285f4'],
+                ['Cartógrafos Heróis', 8.50,'#4285f4'],
+                ['Istanbul', 8.50,'#4285f4'],
+                ['Viticulture Essencial Edition', 8.50,'#4285f4'],
+                ['Bullfrogs', 8.50,'#4285f4'],
+                ['Tokaido', 8.50,'#4285f4'],
+                ['La Granja', 8.30,'#4285f4'],
+                ['Kanagawa', 8.30,'#4285f4'],
+                ['Raiders Of The North Sea', 8.20,'#4285f4'],
+                ['Legendary', 8.00,'#4285f4'],
+                ['Century: Rota das Especiarias', 8.00,'#4285f4'],
+                ['Splendor Marvel', 7.80,'#4285f4'],
+                ['Dixit (Myterium)', 7.80,'#4285f4'],
+                ['Bras Birmingham', 7.70,'#4285f4'],
+                ['D&D Wrath Of Ashardalon', 7.00,'#4285f4'],
+                ['Paper Dungeons', 7.60,'#4285f4'],
+                ['Eldritch Horror', 7.40,'#4285f4'],
+                ['Great Western Trail', 7.30,'#4285f4'],
+                ['Mysterium', 7.20,'#4285f4']
+            ]);
+
+            var valor = new google.visualization.DataView(graf);
+            valor.setColumns([0,1,
+                            {calc:'stringify',
+                            sourceColumn: 1,
+                            type: 'string',
+                            role: 'annotation'},
+                            2]);
+
+            var opts = {
+                title: 'Gráfico do Ranking ',
+                bar: {groupWidth: '90%'},
+                legend: {position: 'none'}
+            };
+            var chart = new google.visualization.BarChart(document.getElementById('grafico'));
+            chart.draw(valor, opts);
+        }
+    </script>
+</head>
+<body>
+    <div id="grafico"></div>
+</body>
+</html>

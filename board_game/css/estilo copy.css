@@ -28,21 +28,18 @@ div#iventilador {
     background: center url(../imagens/ventilador_peq.gif) no-repeat;
 }
 
-span.material-symbols-outlined {
+span#burguer {
     display: inline-block;
+    font-size: 1.8em;
     color: #ffffff;
     text-align: center;
-}
-
-span.material-symbols-outlined:hover {
-    color: #000000;
-    cursor: pointer;
-}
-
-span#burguer {
-    font-size: 1.8em;
     margin-top: 8px;
     padding-left: 10px;
+}
+
+span#burguer:hover {
+    color: #000000;
+    cursor: pointer;
 }
 
 menu#principal {
@@ -57,17 +54,18 @@ menu#principal > ul {
 
 li.item {
     display: inline-block;
-    padding: 2px;
-    width: 70px;
+    padding-right: 10px;
+    padding-top: 2px;
+    width: 80px;
     height: 20px;
-    border: 1px solid #772c80;
-    box-shadow: 5px 4px #772c80;
+    border: 1px solid #000000;
     border-radius: 5px 20px;
     text-align: center;
 }
 
-li.item > span.material-symbols-outlined {
-    font-size: 1.4em;
+li.item > a {
+    color: #ffffff;
+    font-size: 0.9em;
 }
 
 main {
@@ -90,13 +88,11 @@ div#paginas {
 iframe#pagina {
     display: block;
     width: 380px;
-    height: 721.5px;
-    border: none;
-    align-items: center;
+    height: 722.5px;
 }
 
 menu#pages {
-    display: none;
+    display: inline-block;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -112,21 +108,19 @@ menu#pages > ul > li {
     background-color: #a93eb5;
     border: 1px solid #000000;
     border-radius: 5px 20px;
-    margin: 5px 10px;
+    margin: 10px 10px;
     padding: 3px 1px;
+    font-size: 1em;
+    color: #ffffff;
     text-align: center;
-    box-shadow: 4px 4px #00000085;
+    text-shadow: 0px 0px 3px #000000;
 }
 
-menu#pages > ul > li > a {
-    font-size: 1.2em;
-    color: #ffffff;
-}
 menu#pages > ul > li#pag {
     width: 75px;
     padding: 5px 0px;
-    font-size: 1em;
-    color: #ffffff;
+    font-size: 0.8em;
+    text-shadow: none;
 }
 
 footer {
