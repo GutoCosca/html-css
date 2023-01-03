@@ -20,16 +20,20 @@ function clickMenu(){
     }
 }
 
+// Exibe a área do usuário
+function clickUsuario() {
+    document.getElementById('pagina').src = 'usuario.html'
+    pages.style.display = 'none'
+}
+
 // Alternar entre tabela e gráfico
 function clickGrafico() {
     document.getElementById('pagina').src = 'grafico.html'
-
     pages.style.display = 'none'
 }
 
 function clickTabela(){
     document.getElementById('pagina').src = 'pag01.html'
-
     pages.style.display = 'inline-block'
 }
 
@@ -38,8 +42,7 @@ function clickTabela(){
         
     }*/
 
-//Controles do menu das páginas do frame  
-    
+//Controles do menu das páginas do frame 
 var pag = 1
 var pagAtual = window.document.getElementById('pag')
         
