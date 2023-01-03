@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0px;
+    color: #a93eb5;
+    font-weight: bolder;
+    text-shadow: 4px 4px 3px #782c8079;
+}
 ul#album {
     list-style: none;
 }
@@ -26,6 +34,7 @@ li#foto01 {
     background: url('../imagens/foto01.png') no-repeat;
     background-position: 50% 50%;
     background-size: 300%;
+    background-color: #ffffff;
 }
 
 li#foto01:hover {
@@ -107,6 +116,279 @@ li#foto07 {
 }
 
 li#foto07:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto08 {
+    background: url('../imagens/foto08.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto08:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto09 {
+    background: url('../imagens/foto09.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto09:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto10 {
+    background: url('../imagens/foto10.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto10:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto11 {
+    background: url('../imagens/foto11.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto11:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto12 {
+    background: url('../imagens/foto12.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto12:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto13 {
+    background: url('../imagens/foto13.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto13:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto14 {
+    background: url('../imagens/foto14.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto14:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto15 {
+    background: url('../imagens/foto15.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto15:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto16 {
+    background: url('../imagens/foto16.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto16:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto17 {
+    background: url('../imagens/foto17.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto17:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto18 {
+    background: url('../imagens/foto18.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto18:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto19 {
+    background: url('../imagens/foto19.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto19:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto20 {
+    background: url('../imagens/foto20.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto20:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto21 {
+    background: url('../imagens/foto21.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto21:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto22 {
+    background: url('../imagens/foto22.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto22:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto23 {
+    background: url('../imagens/foto23.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto23:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto24 {
+    background: url('../imagens/foto24.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto24:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto25 {
+    background: url('../imagens/foto25.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto25:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto26 {
+    background: url('../imagens/foto26.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto26:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto27 {
+    background: url('../imagens/foto27.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto27:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto28 {
+    background: url('../imagens/foto28.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto28:hover {
     background-position: 50% 50%;
     background-size: 100%;
     background-color: #ffffff;
