@@ -40,17 +40,22 @@
         <li class="fotos" id="foto28"></li>
     </ul>
     <script>
-            
+        // Define o menu conforme o tamanho
+        function tamanho(){
+            if (innerWidth >=760){
+                
+                function clickFoto01() {
+                    varWindow = window.open ('foto.html', 'foto', 'width=500', 'height=500')
+                    varWindow.document.write("<img src = 'imagens/foto01.png'>")
+                }
 
-        function clickFoto01() {
-            varWindow = window.open ('foto.html', 'foto', 'width=500', 'height=500')
-            varWindow.document.write("<img src = 'imagens/foto01.png'>")
+                function clickFoto02() {
+                    varWindow = window.open ('foto.html', 'foto', 'width=500', 'height=500')
+                    varWindow.document.write("<img src = 'imagens/foto02.png'>")
+                }
+            }
         }
 
-        function clickFoto02() {
-            varWindow = window.open ('foto.html', 'foto', 'width=500', 'height=500')
-            varWindow.document.write("<img src = 'imagens/foto02.png'>")
-        }
     </script>
 </body>
 </html>
