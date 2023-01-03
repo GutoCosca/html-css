@@ -1,33 +1,16 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 600px) {
 
-    * {
-        margin: 0px;
-        padding: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        text-decoration: none;
-        color: #000000;
-    }
-
-    html, body {
-        width: 100vw;
-        height: 100vh;
-    }
-        
     header  {
-        display: block;
-        background-color: #A93EB5;
-        border: 2px solid #000000;
         padding: 10px 0px 10px 0px;
         width: 100vw;
         height: 20vh;
     }
     
     div#iventilador {
-        background:  center url(../imagens/ventilador.gif) no-repeat;
-        width: 100vw;
+        
+    background: center url(../imagens/ventilador.gif) no-repeat;
         height: 15vh;
     }
 
@@ -43,21 +26,11 @@
         left: 50%;
         transform: translateX(-50%);
     }
-
-    menu#principal > ul {
-        list-style-type: none;
-    }
     
     li.item {
-        display: inline-block;
         margin-right: 10px;
         padding: 5px;
         width: 100px;
-        height: 20px;
-        border: 1px solid #772c80;
-        box-shadow: 6px 5px 2px #772c80;
-        border-radius: 5px 20px;
-        text-align: center;
     }
 
     li.item > a {
@@ -65,56 +38,33 @@
         font-size: 1em;
         color: #ffffff;
     }
-
-    main {
-        position: relative;
-        width: 100vw;
-    }
     
     main > div#paginas {
-        display: block;
-        background-color: #ade6ff;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
         width: 600px;
         height: 940px;
-        padding: 15px;
     }
 
     iframe#pagina {
-        display: block;
         width: 600px;
         height: 940px;
     }
 
     menu#pages {
-        display: none;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
         margin-top: 50px;
     }
     
     menu#pages > ul > li {
-        display: inline-block;
-        background-color: #A93EB5;
-        border: 1px solid #000000;
-        border-radius: 5px 20px;
         width: 75px;
-        text-align: center;
-        box-shadow: 4px 4px 3px #00000085;
         margin: 0px 23px;
     
     }
     
     menu#pages > ul > li > a {
         font-size: 1.5em;
-        color: #ffffff;
     }
+
     menu#pages > ul > li#pag {
         width: 100px;
-        padding: 5px 0px;
         font-size: 1.2em;
-        color: #ffffff;
     }
+}

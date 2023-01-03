@@ -5,8 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuário</title>
+    <link rel="stylesheet" href="css/usuario.css">
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>bom dia</h1>
+    </header>
+    <main>
+        <div class="abaUsuario">
+            <div id="header">
+                <ul class="abas">
+                    <li>
+                        <div class="aba">
+                            <span>Dados Cadastrais</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="aba">
+                            <span>Alteração de Dados</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="dadosUsuario">
+                <div class="conteudo">
+                    Conteúdo da aba 1<br>
+                    teste
+                </div>
+                <div class="conteudo">
+                    Conteúdo da aba 2
+                </div>
+            </div>
+        </div>  
+    </main>
+    <script type="text/javascript">
+        $(document).ready (
+            function() {
+                $("div#dadosUsuario div:nth-child(1)").show()
+                $("ul.abas > li:first div").addClass("selected")
+                $("div.aba").click(
+                    function(){
+                        $("div.aba").removeClass("selected");
+                        $(this).addClass("selected");
+                        var indice = $(this).parent().index();
+                        indice++;
+                        $("div#dadosUsuario div").hide();
+                        $("div#dadosUsuario div:nth-child("+indice+")").show();
+                    }
+                )
+                $("div.aba").hover(
+                    function() {
+                        $(this).addClass("ativa")
+                    },
+                    function() {
+                        $(this).removeClass("ativa")
+                    }
+                )
+            }
+        )
+        </script>
 </body>
 </html>
