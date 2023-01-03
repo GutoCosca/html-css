@@ -10,8 +10,8 @@
 <body>
     <h1>Galeria de fotos</h1>
     <ul id="album">
-        <li class="fotos" id="foto01" onclick="clickFoto()"></li>
-        <li class="fotos" id="foto02" onclick="clickFoto()"></li>
+        <li class="fotos" id="foto01" onclick="clickFoto01()"></li>
+        <li class="fotos" id="foto02" onclick="clickFoto02()"></li>
         <li class="fotos" id="foto03"></li>
         <li class="fotos" id="foto04"></li>
         <li class="fotos" id="foto05"></li>
@@ -40,10 +40,16 @@
         <li class="fotos" id="foto28"></li>
     </ul>
     <script>
-        function clickFoto() {
-            varFoto = window.document.getElementsByClassName('foto').value
+            
+
+        function clickFoto01() {
             varWindow = window.open ('foto.html', 'foto', 'width=500', 'height=500')
             varWindow.document.write("<img src = 'imagens/foto01.png'>")
+        }
+
+        function clickFoto02() {
+            varWindow = window.open ('foto.html', 'foto', 'width=500', 'height=500')
+            varWindow.document.write("<img src = 'imagens/foto02.png'>")
         }
     </script>
 </body>
