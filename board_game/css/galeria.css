@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+ul#album {
+    list-style: none;
+}
+
+li.fotos {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px #00000066;
+    color: #ffffff00;
+    transition: all .75s ease-in;
+}
+
+li.fotos:hover {
+    transform: scale(2);
+    cursor: pointer;
+}
+
+li#foto01 {
+    background: url('../imagens/foto01.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+}
+
+li#foto01:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto02 {
+    background: url('../imagens/foto02.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto02:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto03 {
+    background: url('../imagens/foto03.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto03:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto04 {
+    background: url('../imagens/foto04.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto04:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto05 {
+    background: url('../imagens/foto05.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto05:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto06 {
+    background: url('../imagens/foto06.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto06:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}
+
+li#foto07 {
+    background: url('../imagens/foto07.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 300%;
+    background-color: #ffffff;
+}
+
+li#foto07:hover {
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-color: #ffffff;
+}

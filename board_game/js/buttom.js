@@ -37,6 +37,12 @@ function clickTabela(){
     pages.style.display = 'inline-block'
 }
 
+// Exibe a galeria de fotos
+function clickGaleria() {
+    document.getElementById('pagina').src = 'galeria.html'
+    pages.style.display = 'none'
+}
+
 /* Controles do menu
     function clickSair() {
         

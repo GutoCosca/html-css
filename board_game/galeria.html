@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/galeria.css">
     <title>Galeria</title>
 </head>
 <body>
-    
+    <h1>Galeria de fotos</h1>
+    <ul id="album">
+        <li class="fotos" id="foto01" onclick="clickFoto()"></li>
+        <li class="fotos" id="foto02"onclick="clickFoto()"></li>
+        <li class="fotos" id="foto03"></li>
+        <li class="fotos" id="foto04"></li>
+        <li class="fotos" id="foto05"></li>
+        <li class="fotos" id="foto06"></li>
+        <li class="fotos" id="foto07"></li>
+        <li class="fotos" id="foto08"></li>
+        <li class="fotos" id="foto09"></li>
+        <li class="fotos" id="foto10"></li>
+        <li class="fotos" id="foto11"></li>
+        <li class="fotos" id="foto12"></li>
+        <li class="fotos" id="foto13"></li>
+        <li class="fotos" id="foto14"></li>
+        <li class="fotos" id="foto15"></li>
+        <li class="fotos" id="foto16"></li>
+        <li class="fotos" id="foto17"></li>
+        <li class="fotos" id="foto18"></li>
+        <li class="fotos" id="foto19"></li>
+        <li class="fotos" id="foto20"></li>
+        <li class="fotos" id="foto21"></li>
+        <li class="fotos" id="foto22"></li>
+        <li class="fotos" id="foto23"></li>
+        <li class="fotos" id="foto24"></li>
+        <li class="fotos" id="foto25"></li>
+        <li class="fotos" id="foto26"></li>
+        <li class="fotos" id="foto27"></li>
+        <li class="fotos" id="foto28"></li>
+        <li class="fotos" id="foto29"></li>
+        <li class="fotos" id="foto30"></li>
+    </ul>
+    <script>
+        function clickFoto() {
+            varFoto = window.document.getElementsByClassName('foto').value
+            varWindow = window.open ('foto.html', 'foto', 'width=500', 'height=500')
+            varWindow.document.write("<img src = 'imagens/foto01.png'>")
+        }
+    </script>
 </body>
 </html>
