@@ -134,19 +134,15 @@ menu#pages > ul > li#pag {
 }
 
 footer {
-    margin-top: 22px;
-}
-
-footer > div {
+    height: 6vh;
     background-color: #00000083;
-    padding: 0px;
 }
 
 footer > div > p {
     color: #ffffff;
     text-align: center;
     text-shadow: 0px 0px 3px #000000;
-    padding: 6px 0px;
+    padding-top: 20px;
 }
 
 footer > div > p > a {
