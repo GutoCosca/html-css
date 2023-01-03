@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Board Game</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="#">
-    
+    <link rel="stylesheet" href="css/media_querry.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
@@ -16,11 +15,12 @@
         <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
         <menu id="principal">
             <ul>
-                <li class="item"><span class="material-symbols-outlined">person</span></li>
-                <li class="item"><span class="material-symbols-outlined">how_to_vote</span></li>
-                <li class="item"><span class="material-symbols-outlined" onclick="clickTabela()">table_rows</span></li>
-                <li class="item"><span class="material-symbols-outlined" onclick="clickGrafico()" alt="Gráfico">equalizer</span></li>
-                <li class="item"><span class="material-symbols-outlined">logout</span></li>
+                <li class="item"><span class="material-symbols-outlined">person</span><a href="#">Minha Área</a></li>
+                <li class="item"><span class="material-symbols-outlined">how_to_vote</span><a href="#">Voto</a></li>
+                <li class="item"><span class="material-symbols-outlined" onclick="clickTabela()">table_rows</span><a href="#" onclick="clickTabela()">Tabela</a></li>
+                <li class="item"><span class="material-symbols-outlined" onclick="clickGrafico()" alt="Gráfico">equalizer</span><a href="#" onclick="clickGrafico()">Gráfico</a></li>
+                <li class="item"><span class="material-symbols-outlined">gallery_thumbnail</span><a href="#">Galeria</a></li>
+                <li class="item"><span class="material-symbols-outlined">logout</span><a href="#">Sair</a></li>
             </ul>
         </menu>   
     </header>

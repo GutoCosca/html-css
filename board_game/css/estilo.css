@@ -58,16 +58,20 @@ menu#principal > ul {
 li.item {
     display: inline-block;
     padding: 2px;
-    width: 70px;
+    width: 50px;
     height: 20px;
     border: 1px solid #772c80;
-    box-shadow: 5px 4px #772c80;
+    box-shadow: 5px 4px 2px #772c80;
     border-radius: 5px 20px;
     text-align: center;
 }
 
 li.item > span.material-symbols-outlined {
     font-size: 1.4em;
+}
+
+li.item > a {
+    display: none;
 }
 
 main {
@@ -78,7 +82,7 @@ main {
 
 div#paginas {
     display: block;
-    position:relative;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     width: 380px;
@@ -115,7 +119,7 @@ menu#pages > ul > li {
     margin: 5px 10px;
     padding: 3px 1px;
     text-align: center;
-    box-shadow: 4px 4px #00000085;
+    box-shadow: 4px 4px 2px #00000085;
 }
 
 menu#pages > ul > li > a {

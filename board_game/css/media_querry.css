@@ -14,7 +14,6 @@
     html, body {
         width: 100vw;
         height: 100vh;
-        overflow-x: hidden;
     }
         
     header  {
@@ -23,65 +22,48 @@
         border: 2px solid #000000;
         padding: 10px 0px 10px 0px;
         width: 100vw;
-        height: 15vh;
+        height: 20vh;
     }
     
     div#iventilador {
         background:  center url(../imagens/ventilador.gif) no-repeat;
-        background-size: 50%;
         width: 100vw;
         height: 15vh;
     }
 
-    
-    nav {
-        margin-top: -13px;
-        background-color: #A93EB5;
-    }
-     
-    a#ilogin {
-        display: block;
-        float: right;
-        margin-top: -7px;
-        margin-right: 50px;
-    }
-    
-    a#iacesso {
+    span.material-symbols-outlined {
         display: none;
-        float:right;
-        margin-top: -7px;
-        margin-right: 50px;
+    }
+
+    menu#principal {
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 15px;
+        position:relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    menu#principal > ul {
+        list-style-type: none;
     }
     
-    menu#iarea {
-        display: none;
-        position: relative;
-        float: right;
-        margin-top: 25px;
-        margin-right: -110px;
+    li.item {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 5px;
+        width: 100px;
+        height: 20px;
+        border: 1px solid #772c80;
+        box-shadow: 6px 5px 2px #772c80;
+        border-radius: 5px 20px;
         text-align: center;
     }
 
-    /*menu#iarea > ul {
-        list-style-type: none;
-    }*/
-    
-    menu#iarea >ul > li {
+    li.item > a {
         display: block;
-        margin-top: 3px;
-    }
-    
-    a.menu {
-        display: block;
-        border: 2px solid #000000;
-        border-radius: 5px 20px;
-        padding: 5px 10px;
-        margin-right: -20px;
-        color:#ffffff;
         font-size: 1em;
-        font-weight:400;
-        width:100px;
-        text-align: center;
+        color: #ffffff;
     }
 
     main {
@@ -101,59 +83,46 @@
         padding: 15px;
     }
 
-    div > iframe {
+    iframe#pagina {
         display: block;
         width: 600px;
         height: 940px;
     }
 
-    main > div#navega {
-        width: 100vw;
-        height: 30px;
-        margin-top: 50px;
-    }
-
-    /*div > menu {
-        display: inline-block;
+    menu#pages {
+        display: none;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-    }*/
-    
-    div#navega > menu > ul {
-        list-style-type: none;
+        margin-top: 50px;
     }
     
-    div#navega > menu > ul > li {
+    menu#pages > ul > li {
         display: inline-block;
         background-color: #A93EB5;
         border: 1px solid #000000;
         border-radius: 5px 20px;
         width: 75px;
+        text-align: center;
+        box-shadow: 4px 4px 3px #00000085;
+        margin: 0px 23px;
+    
+    }
+    
+    menu#pages > ul > li > a {
         font-size: 1.5em;
         color: #ffffff;
-        text-align: center;
-        text-shadow: 0px 0px 3px #000000;
-        margin: 0px 40px;
-    
     }
-    
-    div#navega > menu > ul > li#pag{
+    menu#pages > ul > li#pag {
         width: 100px;
-        font-size: 1em;
-        padding: 7.5px 0px;
-    }
-
-    div#navega > menu > ul > li > a{
+        padding: 5px 0px;
+        font-size: 1.2em;
         color: #ffffff;
     }
     
     footer > div {
         background-color: #00000083;
-        margin: 0px;
         padding:0px;
-        width: 100vw;
-        height: 6vh;
     }
     
     footer > div > p {
@@ -164,13 +133,10 @@
     }
     
     footer > div > p > a {
+        padding: 10px 0px;
         text-decoration: none;
         color: #ffffff;
         text-shadow: 0px 0px 3px #000000;
-    }
-
-    span#burguer {
-        display: none;
     }
 }
 
