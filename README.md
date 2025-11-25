@@ -16,11 +16,11 @@
    
    5. [Votação de Jogos][5]
 
-[1]: https://gutocosca.github.io/html-css/Exercícios/desafios-modulo02/des10/android.html "Curso em Vídeo - Prof. Gustavo Guanabara"
+[1]: https://gutocosca.github.io/html-css/Exercícios/desafios-modulo02/des10/index.html "Curso em Vídeo - Prof. Gustavo Guanabara"
 
 [2]: https://gutocosca.github.io/html-css/Exercícios/desafios-modulo02/des12/index.html "Curso em Vídeo - Prof. Gustavo Guanabara"
 
-[3]: https://gutocosca.github.io/html-css/Exercícios/desafios-modulo04/des13/social.html "Curso em Vídeo - Prof. Gustavo Guanabara"
+[3]: https://gutocosca.github.io/html-css/Exercícios/desafios-modulo04/des13/index.html "Curso em Vídeo - Prof. Gustavo Guanabara"
 
 [4]: https://gutocosca.github.io/html-css/Exercícios/desafios-modulo04/des14/index.html "Curso em Vídeo - Prof. Gustavo Guanabara"
 
